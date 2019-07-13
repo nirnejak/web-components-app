@@ -2,6 +2,8 @@ import { foo } from "./foo";
 
 import '../scss/main.scss'
 
+import MyElement from './my-element';
+
 console.log(`Hello {{version}} ${foo()}`);
 
 async function cacheImage() {
