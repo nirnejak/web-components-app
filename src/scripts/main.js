@@ -1,10 +1,10 @@
 import { foo } from "./foo";
+import MyElement from './my-element';
 
 import '../scss/main.scss'
 
-import MyElement from './my-element';
 
-console.log(`Hello {{version}} ${foo()}`);
+console.log(`Hello {{version}} ${foo("bar")}`);
 
 async function cacheImage() {
   const cache = await caches.open('App__{{version}}')

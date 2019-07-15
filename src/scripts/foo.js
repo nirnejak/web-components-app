@@ -1,1 +1,5 @@
-export const foo = () => "bar";
+/**
+ * 
+ * @param {string} value 
+ */
+export const foo = value => value;
