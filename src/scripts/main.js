@@ -12,3 +12,7 @@ async function cacheImage() {
 }
 
 cacheImage()
+
+document.querySelector("#main-container").addEventListener("wobble", event => {
+  console.log(event.detail.m, event.detail.s)
+})
